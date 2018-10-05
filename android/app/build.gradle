@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-push-notification')
       api "com.android.support:appcompat-v7:24.0.0"
     compile project(':react-native-maps')
     compile fileTree(dir: "libs", include: ["*.jar"])
